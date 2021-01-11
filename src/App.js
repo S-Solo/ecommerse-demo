@@ -1,7 +1,8 @@
 import './App.css';
 import Layout from './component/Layout/Layout'
-import Footer from './containers/Footer/Footer';
+import Footer from './component/Footer/Footer';
 import Header from './containers/Header/Header';
+import Products from './containers/Products/Products';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Header />
       <Layout>
         <main className="app-main-content">
-          <span>products</span>
+          <Products />
         </main>
         <Footer />
       </Layout>
