@@ -1,7 +1,14 @@
 .app-layout {
-    height: calc(100vh - 64px);
-    padding: 64px 0;
+    height: calc(100vh);
+    padding-top: 64px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.app-layout-content {
+
+
+  flex: 1;
+  background-color: aquamarine;
 }
