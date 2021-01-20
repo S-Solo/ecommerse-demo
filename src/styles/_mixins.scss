@@ -1,0 +1,10 @@
+@mixin flex-center($direction) { // @include
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+%green-background { // @extend
+    background-color: green;
+}
