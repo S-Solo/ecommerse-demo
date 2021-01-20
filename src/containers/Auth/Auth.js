@@ -1,4 +1,4 @@
-import React, { useState, Component } from 'react';
+import React, { Component } from 'react';
 
 import Login from './Login/Login';
 import Signup from './Signup/Signup';
@@ -52,7 +52,7 @@ class AuthClass extends Component {
             <div>
                 <span onClick={this.toggleView.bind(this)}>Go to {this.state.isLogin ? 'Signup' : 'Login'}</span>
                 {this.state.isLogin ?
-                    <Login />
+                    <Login title="LOGIN" />
                     :
                     <Signup />
                 }

@@ -1,8 +1,11 @@
 import React from 'react';
 
-const Button = ({ onClick, children }) => {
+import './Button.scss';
+
+const Button = ({ onClick, children, className }) => {
+
     return (
-        <button onClick={onClick}>
+        <button onClick={onClick} className={`app-button ${className}`}>
             {children}
         </button>
     )
